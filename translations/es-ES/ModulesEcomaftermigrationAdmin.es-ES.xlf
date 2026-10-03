@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="ecom_aftermigration.php" source-language="en-US" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="4080abf1b807136dff3f931083a64661" resname="%count% check(s) failed. Press Repair on each one.">
+        <source>%count% check(s) failed. Press Repair on each one.</source>
+        <target>Han fallado %count% comprobación(es). Pulsa Arreglar en cada una.</target>
+      </trans-unit>
+      <trans-unit id="af511c68cdba0b60323595356c0f7631" resname="%count% configuration key(s) are missing or do not hold valid JSON. Validating an order will end in a fatal error.">
+        <source>%count% configuration key(s) are missing or do not hold valid JSON. Validating an order will end in a fatal error.</source>
+        <target>Faltan %count% clave(s) de configuración, o no contienen un JSON válido. Validar un pedido acabará en un error fatal.</target>
+      </trans-unit>
+      <trans-unit id="c92a6826591ed89e7e5fc93650e1a59a" resname="%count% incident(s) recorded. Look at the file and the line: that is the module to fix.">
+        <source>%count% incident(s) recorded. Look at the file and the line: that is the module to fix.</source>
+        <target>%count% incidencia(s) registradas. Mira el fichero y la línea: ese es el módulo que hay que corregir.</target>
+      </trans-unit>
+      <trans-unit id="5b8428a8c034907125cb3a603f237fa8" resname="%count% key(s) are still wrong after the repair.">
+        <source>%count% key(s) are still wrong after the repair.</source>
+        <target>Siguen mal %count% clave(s) después del arreglo.</target>
+      </trans-unit>
+      <trans-unit id="6e1b4719257e96409de73501bae2d16d" resname="%count% key(s) restored to the factory value.">
+        <source>%count% key(s) restored to the factory value.</source>
+        <target>%count% clave(s) devueltas a su valor de fábrica.</target>
+      </trans-unit>
+      <trans-unit id="feeca0540d6bf4a030059ce864f0afed" resname="%count% orphan row(s) in configuration_lang.">
+        <source>%count% orphan row(s) in configuration_lang.</source>
+        <target>%count% fila(s) huérfanas en configuration_lang.</target>
+      </trans-unit>
+      <trans-unit id="8e1d577a1a2919d7706d4d85c4c0cc93" resname="%count% override file(s) are missing or out of date.">
+        <source>%count% override file(s) are missing or out of date.</source>
+        <target>Faltan %count% fichero(s) de override, o están anticuados.</target>
+      </trans-unit>
+      <trans-unit id="8ed3374193e4edcdfae5852e42cc5e2e" resname="%count% override file(s) belong to someone else and have to be merged by hand.">
+        <source>%count% override file(s) belong to someone else and have to be merged by hand.</source>
+        <target>%count% fichero(s) de override son de otro y hay que fusionarlos a mano.</target>
+      </trans-unit>
+      <trans-unit id="1b48358e28e4c6019c8dad0074fd8f07" resname="%count% row(s) are missing in configuration_lang.">
+        <source>%count% row(s) are missing in configuration_lang.</source>
+        <target>Faltan %count% fila(s) en configuration_lang.</target>
+      </trans-unit>
+      <trans-unit id="b498e2b2f17cbe10fc309dd159aeeab7" resname="%count% row(s) are still missing after the repair.">
+        <source>%count% row(s) are still missing after the repair.</source>
+        <target>Siguen faltando %count% fila(s) después del arreglo.</target>
+      </trans-unit>
+      <trans-unit id="3ff216f17f6bc48ea690f33122d72c7e" resname="%count% row(s) belong to a language that no longer exists.">
+        <source>%count% row(s) belong to a language that no longer exists.</source>
+        <target>%count% fila(s) son de un idioma que ya no existe.</target>
+      </trans-unit>
+      <trans-unit id="add3d5732bc6f9cf4c1534fdec417c0b" resname="%count% row(s) belong to a language that no longer exists. They are only reported, the SQL to remove them is in sql/03-limpiar-filas-huerfanas.sql.">
+        <source>%count% row(s) belong to a language that no longer exists. They are only reported, the SQL to remove them is in sql/03-limpiar-filas-huerfanas.sql.</source>
+        <target>%count% fila(s) son de un idioma que ya no existe. Solo se informa: el SQL para borrarlas está en sql/03-limpiar-filas-huerfanas.sql.</target>
+      </trans-unit>
+      <trans-unit id="6a4cb1d8109eea1e6885309daaa4d632" resname="%count% row(s) inserted in configuration_lang.">
+        <source>%count% row(s) inserted in configuration_lang.</source>
+        <target>Insertadas %count% fila(s) en configuration_lang.</target>
+      </trans-unit>
+      <trans-unit id="4d43729eddf455db456c2c4672431cf4" resname="%count% table(s) are still short after the repair.">
+        <source>%count% table(s) are still short after the repair.</source>
+        <target>Siguen cojas %count% tabla(s) después del arreglo.</target>
+      </trans-unit>
+      <trans-unit id="2e578b37bbd09970b7eb62a647ee3947" resname="%count% table(s) do not have the same rows in every language.">
+        <source>%count% table(s) do not have the same rows in every language.</source>
+        <target>%count% tabla(s) no tienen las mismas filas en todos los idiomas.</target>
+      </trans-unit>
+      <trans-unit id="8747129e08795aa9c85a64476658f63a" resname="%file% could not be copied. Check the write permissions of the override/ folder.">
+        <source>%file% could not be copied. Check the write permissions of the override/ folder.</source>
+        <target>No se ha podido copiar %file%. Revisa los permisos de escritura de la carpeta override/.</target>
+      </trans-unit>
+      <trans-unit id="82368be3ba99ea9ac029e156a826e678" resname="%table% has %rows% rows: only reported, repair it by hand or raise the limit.">
+        <source>%table% has %rows% rows: only reported, repair it by hand or raise the limit.</source>
+        <target>%table% tiene %rows% filas: solo se informa, arréglala a mano o sube el límite.</target>
+      </trans-unit>
+      <trans-unit id="8158d84d39b84022507d251b1939401f" resname="A key without rows in configuration_lang brings down Orders &gt; Invoices and the other forms that use translatable fields.">
+        <source>A key without rows in configuration_lang brings down Orders &gt; Invoices and the other forms that use translatable fields.</source>
+        <target>Una clave sin filas en configuration_lang tumba Pedidos &gt; Facturas y el resto de formularios con campos traducibles.</target>
+      </trans-unit>
+      <trans-unit id="fab76597cf1467f03bcf2c068cbfd5ff" resname="About %count% row(s) copied from the reference language.">
+        <source>About %count% row(s) copied from the reference language.</source>
+        <target>Copiadas unas %count% fila(s) desde el idioma de referencia.</target>
+      </trans-unit>
+      <trans-unit id="d15b9daeffbe94b7412c54a087be820c" resname="Address rules of the invoice PDF">
+        <source>Address rules of the invoice PDF</source>
+        <target>Reglas de dirección del PDF de la factura</target>
+      </trans-unit>
+      <trans-unit id="c67fcce2fb07ecfed67dc27fb8a97e75" resname="After installing the overrides">
+        <source>After installing the overrides</source>
+        <target>Después de instalar los overrides</target>
+      </trans-unit>
+      <trans-unit id="e70e9aee9a28280a611a9d8e0ec0b744" resname="After migration fixes">
+        <source>After migration fixes</source>
+        <target>Arreglos posteriores a una migración</target>
+      </trans-unit>
+      <trans-unit id="3ac08a2aa0589135e8516de3d1ca4235" resname="Array passed to pSQL()">
+        <source>Array passed to pSQL()</source>
+        <target>Array que llega a pSQL()</target>
+      </trans-unit>
+      <trans-unit id="2b772a573a519bc22a7fc0c96ab6c7b3" resname="Arrays reaching pSQL()">
+        <source>Arrays reaching pSQL()</source>
+        <target>Arrays que llegan a pSQL()</target>
+      </trans-unit>
+      <trans-unit id="36e5f8e08ccdf941254f1bed97abc137" resname="Both keys hold valid JSON in every shop.">
+        <source>Both keys hold valid JSON in every shop.</source>
+        <target>Las dos claves contienen un JSON válido en todas las tiendas.</target>
+      </trans-unit>
+      <trans-unit id="8f30efad24afb09d371fc0c7621dac2c" resname="Both overrides are installed and up to date.">
+        <source>Both overrides are installed and up to date.</source>
+        <target>Los dos overrides están puestos y al día.</target>
+      </trans-unit>
+      <trans-unit id="060bf2d587991d8f090a1309b285291c" resname="Check">
+        <source>Check</source>
+        <target>Comprobación</target>
+      </trans-unit>
+      <trans-unit id="7cf37d1bcfb5bc39aed23c66c5e4c892" resname="Check again">
+        <source>Check again</source>
+        <target>Volver a comprobar</target>
+      </trans-unit>
+      <trans-unit id="7750f236004b58cefa2dd979a7371e40" resname="Configuration::loadConfiguration() decides whether a key is multilanguage by looking at configuration_lang. A key with no rows there stops being multilanguage, the adapter returns a string, and the translatable field of the form gets a string instead of an array: Orders &gt; Invoices dies with Expected argument of type &quot;object, array or empty&quot;. The repair inserts the missing rows.">
+        <source>Configuration::loadConfiguration() decides whether a key is multilanguage by looking at configuration_lang. A key with no rows there stops being multilanguage, the adapter returns a string, and the translatable field of the form gets a string instead of an array: Orders &gt; Invoices dies with Expected argument of type "object, array or empty". The repair inserts the missing rows.</source>
+        <target>Configuration::loadConfiguration() decide si una clave es multiidioma mirando configuration_lang. Una clave sin filas ahí deja de ser multiidioma, el adaptador devuelve una cadena, y el campo traducible del formulario recibe una cadena en lugar de un array: Pedidos &gt; Facturas se cae con Expected argument of type "object, array or empty". El arreglo inserta las filas que faltan.</target>
+      </trans-unit>
+      <trans-unit id="5886346f3979c7b6df9409c1eb2afbe4" resname="Copied %count% file(s). %files% was left untouched because an override that does not belong to this module is already there: it has to be merged by hand.">
+        <source>Copied %count% file(s). %files% was left untouched because an override that does not belong to this module is already there: it has to be merged by hand.</source>
+        <target>Copiados %count% fichero(s). No se ha tocado %files% porque ya hay un override que no es de este módulo: hay que fusionarlo a mano.</target>
+      </trans-unit>
+      <trans-unit id="61a31bbc3d565fd2c2625c12afa64b19" resname="Db::escape() and AddressFormat::generateAddress() stop being fatal errors under PHP 8.">
+        <source>Db::escape() and AddressFormat::generateAddress() stop being fatal errors under PHP 8.</source>
+        <target>Db::escape() y AddressFormat::generateAddress() dejan de ser errores fatales en PHP 8.</target>
+      </trans-unit>
+      <trans-unit id="d2b9a0cb5a9c73d4a4694a5f9dea19e6" resname="Db::escape() ends in strip_tags(), and under PHP 8 an array there is a fatal error. It is always a module saving an ObjectModel field with an array. The override keeps the page alive and writes down the file and the line: that is the module that has to be corrected.">
+        <source>Db::escape() ends in strip_tags(), and under PHP 8 an array there is a fatal error. It is always a module saving an ObjectModel field with an array. The override keeps the page alive and writes down the file and the line: that is the module that has to be corrected.</source>
+        <target>Db::escape() acaba en strip_tags(), y en PHP 8 un array ahí es un error fatal. Siempre es un módulo guardando un campo de un ObjectModel con un array. El override salva la pantalla y apunta el fichero y la línea: ese es el módulo que hay que corregir.</target>
+      </trans-unit>
+      <trans-unit id="ec3028a12402ab7f43962a6f3a667b6e" resname="Debug mode">
+        <source>Debug mode</source>
+        <target>Modo de depuración</target>
+      </trans-unit>
+      <trans-unit id="90ed47e5e3b8525bacb9d5dae6d5bce9" resname="Detects and repairs the breakages that an upgrade or a migration leaves behind: PDF address rules, multilanguage configuration, missing language rows and PHP 8 fatal errors.">
+        <source>Detects and repairs the breakages that an upgrade or a migration leaves behind: PDF address rules, multilanguage configuration, missing language rows and PHP 8 fatal errors.</source>
+        <target>Detecta y arregla lo que rompe una actualización o una migración: reglas de dirección de los PDF, configuración multiidioma, filas de idioma que faltan y errores fatales de PHP 8.</target>
+      </trans-unit>
+      <trans-unit id="523223d6c6fe8798f0d70f376ffc99b8" resname="Diagnosis">
+        <source>Diagnosis</source>
+        <target>Diagnóstico</target>
+      </trans-unit>
+      <trans-unit id="975047dc342ee217ce67b2a8c1b09ce1" resname="Each entry is a module writing a field wrong. The override saves the page, the module still has to be fixed.">
+        <source>Each entry is a module writing a field wrong. The override saves the page, the module still has to be fixed.</source>
+        <target>Cada entrada es un módulo escribiendo mal un campo. El override salva la pantalla, pero el módulo sigue habiendo que arreglarlo.</target>
+      </trans-unit>
+      <trans-unit id="d6f68d93183bca461b16c9049c3cdeb2" resname="Empty the logs">
+        <source>Empty the logs</source>
+        <target>Vaciar los registros</target>
+      </trans-unit>
+      <trans-unit id="7638bca7a45d5aebd156101c084aede9" resname="Every check passed.">
+        <source>Every check passed.</source>
+        <target>Todas las comprobaciones salen bien.</target>
+      </trans-unit>
+      <trans-unit id="897e6c01bbc7755d8a01d1f602ac12be" resname="Every language table has the same number of rows for every language.">
+        <source>Every language table has the same number of rows for every language.</source>
+        <target>Todas las tablas de idioma tienen el mismo número de filas en cada idioma.</target>
+      </trans-unit>
+      <trans-unit id="2c51ce31358ab2db90ac7d667314d1f3" resname="Every multilanguage key has one row per language.">
+        <source>Every multilanguage key has one row per language.</source>
+        <target>Todas las claves multiidioma tienen una fila por idioma.</target>
+      </trans-unit>
+      <trans-unit id="e139a585510a502bbf1841cf589f5086" resname="Failure">
+        <source>Failure</source>
+        <target>Fallo</target>
+      </trans-unit>
+      <trans-unit id="c37040e2561e8dcd9b5d73d25a9c4f32" resname="Get in touch with support to update it.">
+        <source>Get in touch with support to update it.</source>
+        <target>Ponte en contacto con soporte para actualizarlo.</target>
+      </trans-unit>
+      <trans-unit id="eac72c062878c754f9d7b188c8adb95d" resname="HTMLTemplateInvoice reads PS_INVCE_INVOICE_ADDR_RULES and PS_INVCE_DELIVERY_ADDR_RULES and hands the result straight to AddressFormat::generateAddress(). If the key is gone, json_decode returns null and PHP 8 throws array_key_exists(): Argument #2 must be of type array, null given. The invoice is generated inside validateOrder(), so the customer cannot finish the purchase. The repair writes the factory value back into both keys.">
+        <source>HTMLTemplateInvoice reads PS_INVCE_INVOICE_ADDR_RULES and PS_INVCE_DELIVERY_ADDR_RULES and hands the result straight to AddressFormat::generateAddress(). If the key is gone, json_decode returns null and PHP 8 throws array_key_exists(): Argument #2 must be of type array, null given. The invoice is generated inside validateOrder(), so the customer cannot finish the purchase. The repair writes the factory value back into both keys.</source>
+        <target>HTMLTemplateInvoice lee PS_INVCE_INVOICE_ADDR_RULES y PS_INVCE_DELIVERY_ADDR_RULES y le pasa el resultado tal cual a AddressFormat::generateAddress(). Si la clave no está, json_decode devuelve null y PHP 8 lanza array_key_exists(): Argument #2 must be of type array, null given. La factura se genera dentro de validateOrder(), así que el cliente se queda sin poder terminar la compra. El arreglo vuelve a escribir el valor de fábrica en las dos claves.</target>
+      </trans-unit>
+      <trans-unit id="2a37e42d684c600572b691c966c06011" resname="Help / how it works">
+        <source>Help / how it works</source>
+        <target>Ayuda / cómo funciona</target>
+      </trans-unit>
+      <trans-unit id="3400a9b8f5b7ce1e4a70761d67c44801" resname="Install the overrides">
+        <source>Install the overrides</source>
+        <target>Instalar los overrides</target>
+      </trans-unit>
+      <trans-unit id="4effb17fc4024893517709fa5f630a4a" resname="Join the values with commas">
+        <source>Join the values with commas</source>
+        <target>Unir los valores con comas</target>
+      </trans-unit>
+      <trans-unit id="e569016404cd28d6e209f1a41f4da05b" resname="Keep the value of the default language (recommended)">
+        <source>Keep the value of the default language (recommended)</source>
+        <target>Quedarse con el valor del idioma por defecto (recomendado)</target>
+      </trans-unit>
+      <trans-unit id="ce0be71e33226e4c1db2bcea5959f16b" resname="Log">
+        <source>Log</source>
+        <target>Registro</target>
+      </trans-unit>
+      <trans-unit id="13bccb6050a709dff75abe5e6be79a5e" resname="Log files emptied.">
+        <source>Log files emptied.</source>
+        <target>Registros vaciados.</target>
+      </trans-unit>
+      <trans-unit id="b2d37ae1cedf42ff874289b721860af2" resname="Logs">
+        <source>Logs</source>
+        <target>Registros</target>
+      </trans-unit>
+      <trans-unit id="4a2fcdc7eaeeb1edbc88d75f0da97949" resname="Module activity">
+        <source>Module activity</source>
+        <target>Actividad del módulo</target>
+      </trans-unit>
+      <trans-unit id="a2a7104a2278987b06177b263f1de5b5" resname="Multilanguage configuration keys">
+        <source>Multilanguage configuration keys</source>
+        <target>Claves de configuración multiidioma</target>
+      </trans-unit>
+      <trans-unit id="40f86c3e7421804da348462e3647c921" resname="Multistore is on: everything is checked shop by shop.">
+        <source>Multistore is on: everything is checked shop by shop.</source>
+        <target>La multitienda está activa: se comprueba tienda por tienda.</target>
+      </trans-unit>
+      <trans-unit id="2268508116e369e03e072879823b6ebc" resname="Newest first. The files are in modules/ecom_aftermigration/logs/.">
+        <source>Newest first. The files are in modules/ecom_aftermigration/logs/.</source>
+        <target>Lo más reciente arriba. Los ficheros están en modules/ecom_aftermigration/logs/.</target>
+      </trans-unit>
+      <trans-unit id="bafd7322c6e97d25b6299b5d6fe8920b" resname="No">
+        <source>No</source>
+        <target>No</target>
+      </trans-unit>
+      <trans-unit id="c8a9f2bf14731fb0df02bf0f67dd957a" resname="No array has reached pSQL() so far.">
+        <source>No array has reached pSQL() so far.</source>
+        <target>Por ahora no ha llegado ningún array a pSQL().</target>
+      </trans-unit>
+      <trans-unit id="fa769ff95a60a487df0d48a888c5d3f5" resname="No failures. There are %count% warning(s) to look at.">
+        <source>No failures. There are %count% warning(s) to look at.</source>
+        <target>Ningún fallo. Hay %count% aviso(s) que mirar.</target>
+      </trans-unit>
+      <trans-unit id="9671f2368c1593b926782436bbda938f" resname="Nothing recorded.">
+        <source>Nothing recorded.</source>
+        <target>No hay nada registrado.</target>
+      </trans-unit>
+      <trans-unit id="5851f45536b7fe48b2b1162ece74e341" resname="Nothing recorded. Turn on debug mode below.">
+        <source>Nothing recorded. Turn on debug mode below.</source>
+        <target>No hay nada registrado. Activa abajo el modo de depuración.</target>
+      </trans-unit>
+      <trans-unit id="e0aa021e21dddbd6d8cecec71e9cf564" resname="OK">
+        <source>OK</source>
+        <target>Bien</target>
+      </trans-unit>
+      <trans-unit id="2f2df7791924e8aca8513b0767c6273c" resname="Only tables whose name ends in _lang and that have id_lang inside the primary key are touched. Rows are copied with INSERT IGNORE from the language that has the most, so nothing already translated is overwritten. Nothing is ever deleted from here.">
+        <source>Only tables whose name ends in _lang and that have id_lang inside the primary key are touched. Rows are copied with INSERT IGNORE from the language that has the most, so nothing already translated is overwritten. Nothing is ever deleted from here.</source>
+        <target>Solo se tocan las tablas cuyo nombre acaba en _lang y que llevan id_lang dentro de la clave primaria. Las filas se copian con INSERT IGNORE desde el idioma que más tiene, así que nunca se pisa nada ya traducido. Desde aquí no se borra nada.</target>
+      </trans-unit>
+      <trans-unit id="9dd011aa878565b109bd4b45f3ca499e" resname="Overrides are disabled in Advanced parameters &gt; Performance: turn them on or nothing here will protect the shop.">
+        <source>Overrides are disabled in Advanced parameters &gt; Performance: turn them on or nothing here will protect the shop.</source>
+        <target>Los overrides están desactivados en Parámetros avanzados &gt; Rendimiento: actívalos o nada de esto protegerá la tienda.</target>
+      </trans-unit>
+      <trans-unit id="b60dc211304fee1b0dea1c3f7942b892" resname="Overrides are disabled in this shop: they will not protect anything.">
+        <source>Overrides are disabled in this shop: they will not protect anything.</source>
+        <target>Los overrides están desactivados en esta tienda: no van a proteger nada.</target>
+      </trans-unit>
+      <trans-unit id="8c091f13e8224b0bcc5edb2527779bfa" resname="Overrides installed (%count% file(s)) and cache cleared.">
+        <source>Overrides installed (%count% file(s)) and cache cleared.</source>
+        <target>Overrides instalados (%count% fichero(s)) y caché vaciada.</target>
+      </trans-unit>
+      <trans-unit id="5ebf20516b52377cba32c1baac156d39" resname="PrestaShop %ps% with PHP %php%.">
+        <source>PrestaShop %ps% with PHP %php%.</source>
+        <target>PrestaShop %ps% con PHP %php%.</target>
+      </trans-unit>
+      <trans-unit id="468686fcb13b36234a0b47bdde28218b" resname="PrestaShop is ignoring every override (Advanced parameters &gt; Performance).">
+        <source>PrestaShop is ignoring every override (Advanced parameters &gt; Performance).</source>
+        <target>PrestaShop está ignorando todos los overrides (Parámetros avanzados &gt; Rendimiento).</target>
+      </trans-unit>
+      <trans-unit id="092e1c6c18a8c034f57a5697345eeea5" resname="Products, categories or CMS pages with no row for one of the languages come out empty in the front office.">
+        <source>Products, categories or CMS pages with no row for one of the languages come out empty in the front office.</source>
+        <target>Los productos, categorías o páginas CMS sin fila para uno de los idiomas salen vacíos en la tienda.</target>
+      </trans-unit>
+      <trans-unit id="b9d2b274a3c9610752310976931cae11" resname="Protection overrides">
+        <source>Protection overrides</source>
+        <target>Overrides de protección</target>
+      </trans-unit>
+      <trans-unit id="ffac176e67b10bc883c44287eb549e98" resname="Record the arrays caught by the override">
+        <source>Record the arrays caught by the override</source>
+        <target>Registrar los arrays que caza el override</target>
+      </trans-unit>
+      <trans-unit id="625ab8bfa231c032f4e4007d8e6e3e8d" resname="Remove the overrides">
+        <source>Remove the overrides</source>
+        <target>Quitar los overrides</target>
+      </trans-unit>
+      <trans-unit id="7b3a33916780056890b9d54244b94c7c" resname="Removed %count% override file(s) and cleared the cache.">
+        <source>Removed %count% override file(s) and cleared the cache.</source>
+        <target>Retirados %count% fichero(s) de override y vaciada la caché.</target>
+      </trans-unit>
+      <trans-unit id="0493d27e20d11e356e53e0a730b0ad08" resname="Repair">
+        <source>Repair</source>
+        <target>Arreglar</target>
+      </trans-unit>
+      <trans-unit id="810a4b9ea5b95b1832b1ccd997c98236" resname="Repairs">
+        <source>Repairs</source>
+        <target>Arreglos</target>
+      </trans-unit>
+      <trans-unit id="f39c4063184fc23d8cff2a011624cc0e" resname="Row limit per language table">
+        <source>Row limit per language table</source>
+        <target>Tope de filas por tabla de idioma</target>
+      </trans-unit>
+      <trans-unit id="bd4f2568837ed3d44c556b1022c9657a" resname="Rows missing in the language tables">
+        <source>Rows missing in the language tables</source>
+        <target>Filas que faltan en las tablas de idioma</target>
+      </trans-unit>
+      <trans-unit id="c9cc8cce247e49bae79f15173ce97354" resname="Save">
+        <source>Save</source>
+        <target>Guardar</target>
+      </trans-unit>
+      <trans-unit id="f4f70727dc34561dfde1a3c529b6205c" resname="Settings">
+        <source>Settings</source>
+        <target>Configuración</target>
+      </trans-unit>
+      <trans-unit id="9a7e58ee13cb727cb7c4acc68f4cafe5" resname="Settings saved.">
+        <source>Settings saved.</source>
+        <target>Configuración guardada.</target>
+      </trans-unit>
+      <trans-unit id="78c6ebc10cd6b065102dcc28c0ff19ec" resname="Show the detail">
+        <source>Show the detail</source>
+        <target>Ver el detalle</target>
+      </trans-unit>
+      <trans-unit id="ec53a8c4f07baed5d8825072c89799be" resname="Status">
+        <source>Status</source>
+        <target>Estado</target>
+      </trans-unit>
+      <trans-unit id="f6a20cf17d96b5d06c31eec1b6cdbe95" resname="Store an empty value">
+        <source>Store an empty value</source>
+        <target>Guardar un valor vacío</target>
+      </trans-unit>
+      <trans-unit id="7b77aaa290e1e7a562a5a3c3537cd135" resname="Tables with more rows than this are only reported, never repaired automatically.">
+        <source>Tables with more rows than this are only reported, never repaired automatically.</source>
+        <target>Las tablas con más filas que esto solo se informan, nunca se arreglan solas.</target>
+      </trans-unit>
+      <trans-unit id="588c6db573309233ad9d6e1a626e646a" resname="The check could not be run: %error%">
+        <source>The check could not be run: %error%</source>
+        <target>No se ha podido pasar la comprobación: %error%</target>
+      </trans-unit>
+      <trans-unit id="5d9ffde1def27fa6dd6e8d3049fa582b" resname="The class index is regenerated on its own. If the shop keeps behaving as before, empty the cache in Advanced parameters &gt; Performance and check that overrides are not disabled there.">
+        <source>The class index is regenerated on its own. If the shop keeps behaving as before, empty the cache in Advanced parameters &gt; Performance and check that overrides are not disabled there.</source>
+        <target>El índice de clases se regenera solo. Si la tienda sigue comportándose igual que antes, vacía la caché en Parámetros avanzados &gt; Rendimiento y comprueba que ahí los overrides no estén desactivados.</target>
+      </trans-unit>
+      <trans-unit id="13e33af58d34fe1a94ad70c8f4329845" resname="The folder %folder% could not be created.">
+        <source>The folder %folder% could not be created.</source>
+        <target>No se ha podido crear la carpeta %folder%.</target>
+      </trans-unit>
+      <trans-unit id="74ad5d6ef1456846de69080892194fb0" resname="The overrides go to override/classes/. Nothing that is not ours is overwritten.">
+        <source>The overrides go to override/classes/. Nothing that is not ours is overwritten.</source>
+        <target>Los overrides van a override/classes/. No se pisa nada que no sea nuestro.</target>
+      </trans-unit>
+      <trans-unit id="46f3ad302ec88514fafc3cababc21325" resname="The repair failed: %error%">
+        <source>The repair failed: %error%</source>
+        <target>El arreglo ha fallado: %error%</target>
+      </trans-unit>
+      <trans-unit id="6b2b43f8a58ec3735f84b46f3a9f9084" resname="There are leftover rows in configuration_lang.">
+        <source>There are leftover rows in configuration_lang.</source>
+        <target>Sobran filas en configuration_lang.</target>
+      </trans-unit>
+      <trans-unit id="e0232916f003ab14762b75e8b3c9cbd2" resname="There is a newer version of this module">
+        <source>There is a newer version of this module</source>
+        <target>Hay una versión más reciente de este módulo</target>
+      </trans-unit>
+      <trans-unit id="06681557c8a66c18ee12453e9c50ab7a" resname="This check has to be fixed by hand.">
+        <source>This check has to be fixed by hand.</source>
+        <target>Esta comprobación hay que arreglarla a mano.</target>
+      </trans-unit>
+      <trans-unit id="3ab8cb720ed4f45bef78ffa67e7d6ccd" resname="This one is not repaired from here: the module that sends the array has to be corrected.">
+        <source>This one is not repaired from here: the module that sends the array has to be corrected.</source>
+        <target>Esto no se arregla desde aquí: hay que corregir el módulo que manda el array.</target>
+      </trans-unit>
+      <trans-unit id="408b88fec43d69be227063060a010ebd" resname="Uninstalling does not undo the repairs already applied. The overrides, if installed, stay in place.">
+        <source>Uninstalling does not undo the repairs already applied. The overrides, if installed, stay in place.</source>
+        <target>Desinstalar no deshace los arreglos ya aplicados. Los overrides, si están puestos, se quedan.</target>
+      </trans-unit>
+      <trans-unit id="4a7475de614bc08b5d0cca710b815a75" resname="Unknown check.">
+        <source>Unknown check.</source>
+        <target>Comprobación desconocida.</target>
+      </trans-unit>
+      <trans-unit id="0eaadb4fcb48a0a0ed7bc9868be9fbaa" resname="Warning">
+        <source>Warning</source>
+        <target>Aviso</target>
+      </trans-unit>
+      <trans-unit id="eaa1ad6ef98696236959da8584cb9432" resname="What the Db override does when a module sends an array where a string is expected.">
+        <source>What the Db override does when a module sends an array where a string is expected.</source>
+        <target>Lo que hace el override de Db cuando un módulo manda un array donde va una cadena.</target>
+      </trans-unit>
+      <trans-unit id="36327e5c7dd75adb9b2e0707758e1a80" resname="Without them, validating an order ends in a fatal error and the customer cannot finish the purchase.">
+        <source>Without them, validating an order ends in a fatal error and the customer cannot finish the purchase.</source>
+        <target>Sin ellas, validar un pedido acaba en un error fatal y el cliente no puede terminar la compra.</target>
+      </trans-unit>
+      <trans-unit id="09cb00727ecfbefaf00212a64599fe18" resname="Writes every check and every repair to logs/ecom_aftermigration.log.">
+        <source>Writes every check and every repair to logs/ecom_aftermigration.log.</source>
+        <target>Escribe cada comprobación y cada arreglo en logs/ecom_aftermigration.log.</target>
+      </trans-unit>
+      <trans-unit id="025df8b3f0ff9ce858f5be1cb97dfb9c" resname="Writes the offending file and line to logs/escape.log. This is what tells you which module has to be fixed.">
+        <source>Writes the offending file and line to logs/escape.log. This is what tells you which module has to be fixed.</source>
+        <target>Escribe en logs/escape.log el fichero y la línea culpables. Es lo que te dice qué módulo hay que arreglar.</target>
+      </trans-unit>
+      <trans-unit id="93cba07454f06a4a960172bbd6e2a435" resname="Yes">
+        <source>Yes</source>
+        <target>Sí</target>
+      </trans-unit>
+      <trans-unit id="b28bdd6e9f81d62945aed98ddb3f1992" resname="an older version is installed">
+        <source>an older version is installed</source>
+        <target>hay puesta una versión anterior</target>
+      </trans-unit>
+      <trans-unit id="73329564760013a7824ff9d5d1af91ff" resname="installed">
+        <source>installed</source>
+        <target>instalado</target>
+      </trans-unit>
+      <trans-unit id="3b9a8cf71be94eda5d701cb266e50f51" resname="missing languages:">
+        <source>missing languages:</source>
+        <target>faltan los idiomas:</target>
+      </trans-unit>
+      <trans-unit id="ba222ded25d957b900c03bef914333cd" resname="not installed">
+        <source>not installed</source>
+        <target>sin instalar</target>
+      </trans-unit>
+      <trans-unit id="d5fd33c80f62cf1dc229e0545bed6e19" resname="there is another override in place, merge it by hand">
+        <source>there is another override in place, merge it by hand</source>
+        <target>hay otro override puesto, fusiónalo a mano</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

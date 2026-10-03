@@ -1,0 +1,69 @@
+/**
+ * Ecom Aftermigration - Estilos del panel
+ *
+ * @author    Ecom Experts <ecomyseo@gmail.com>
+ * @copyright 2026 Ecom Experts
+ * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
+ */
+.ecomam .ecomam-linea {
+    color: #6c868e;
+    margin: 6px 0 12px;
+}
+
+.ecomam .ecomam-desc {
+    color: #6c868e;
+    font-size: 12px;
+}
+
+.ecomam .ecomam-mensaje {
+    font-size: 13px;
+}
+
+.ecomam .ecomam-tabla td {
+    vertical-align: top;
+}
+
+.ecomam .badge.ecomam-ok {
+    background-color: #72c279;
+}
+
+.ecomam .badge.ecomam-aviso {
+    background-color: #fb0;
+    color: #363a41;
+}
+
+.ecomam .badge.ecomam-fallo {
+    background-color: #e08f95;
+}
+
+.ecomam .ecomam-detalle {
+    max-height: 260px;
+    overflow: auto;
+    font-size: 11px;
+    line-height: 1.5;
+    margin-top: 8px;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+.ecomam .ecomam-cerrado {
+    display: none;
+}
+
+.ecomam .ecomam-botones {
+    margin: 10px 0 4px;
+}
+
+.ecomam .ecomam-inline {
+    display: inline-block;
+    margin: 0 6px 6px 0;
+}
+
+.ecomam .ecomam-plegable a {
+    font-size: 12px;
+}
+
+.ecomam .panel-heading a {
+    color: inherit;
+    text-decoration: none;
+}
